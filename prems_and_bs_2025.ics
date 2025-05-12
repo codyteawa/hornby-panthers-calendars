@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+PRODID:-//Hornby Panthers Fixtures//EN
+BEGIN:VEVENT
+UID:5253373@hornbypanthers
+SUMMARY:Prem's - Eastern Eagles vs Hornby Panthers (RD 7)
+DTSTART;TZID=Pacific/Auckland:20250517T144500
+DTEND;TZID=Pacific/Auckland:20250517T162000
+LOCATION:Wainoni Park, Ben Rarere Ave, Aranui, Christchurch, 8061, NZL
+DESCRIPTION:Wainoni Park: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253376@hornbypanthers
+SUMMARY:Prem's - Riccarton Knights vs Hornby Panthers (RD 8)
+DTSTART;TZID=Pacific/Auckland:20250524T144500
+DTEND;TZID=Pacific/Auckland:20250524T162000
+LOCATION:Papanui Domain, 61 Sawyers Arms Rd, Northcote, Christchurch, 8052, NZL
+DESCRIPTION:Papanui Domain: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253379@hornbypanthers
+SUMMARY:Prem's - Greymouth Greyhounds RLC vs Hornby Panthers (RD 9)
+DTSTART;TZID=Pacific/Auckland:20250607T144500
+DTEND;TZID=Pacific/Auckland:20250607T162000
+LOCATION:7802, Coal Creek, Greymouth, West Coast
+DESCRIPTION:Wingham Park: Wingham Park
+END:VEVENT
+BEGIN:VEVENT
+UID:5253381@hornbypanthers
+SUMMARY:Prem's - Hornby Panthers vs Linwood Keas Rugby League (RD 10)
+DTSTART;TZID=Pacific/Auckland:20250614T144500
+DTEND;TZID=Pacific/Auckland:20250614T162000
+LOCATION:Leslie Park, Halswell Junction Rd, Islington, Christchurch, 8042, NZL
+DESCRIPTION:Leslie Park: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253385@hornbypanthers
+SUMMARY:Prem's - Riccarton Knights vs Hornby Panthers (RD 11)
+DTSTART;TZID=Pacific/Auckland:20250628T144500
+DTEND;TZID=Pacific/Auckland:20250628T162000
+LOCATION:Crosbie Park, Apsley Dr, Russley, Christchurch, 8042, NZL
+DESCRIPTION:Crosbie Park: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253386@hornbypanthers
+SUMMARY:Prem's - Hornby Panthers vs Halswell Hornets (RD 12)
+DTSTART;TZID=Pacific/Auckland:20250705T144500
+DTEND;TZID=Pacific/Auckland:20250705T162000
+LOCATION:Leslie Park, Halswell Junction Rd, Islington, Christchurch, 8042, NZL
+DESCRIPTION:Leslie Park: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253389@hornbypanthers
+SUMMARY:Prem's - Linwood Keas Rugby League vs Hornby Panthers (RD 13)
+DTSTART;TZID=Pacific/Auckland:20250712T144500
+DTEND;TZID=Pacific/Auckland:20250712T162000
+LOCATION:Linwood Park, Linwood Ave, Linwood, Christchurch, 8062, NZL
+DESCRIPTION:Linwood Park: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253523@hornbypanthers
+SUMMARY:B's - Eastern Eagles vs Hornby Panthers (RD 7)
+DTSTART;TZID=Pacific/Auckland:20250517T130000
+DTEND;TZID=Pacific/Auckland:20250517T143500
+LOCATION:Wainoni Park, Ben Rarere Ave, Aranui, Christchurch, 8061, NZL
+DESCRIPTION:Wainoni Park: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253526@hornbypanthers
+SUMMARY:B's - Papanui Tigers vs Hornby Panthers (RD 8)
+DTSTART;TZID=Pacific/Auckland:20250524T130000
+DTEND;TZID=Pacific/Auckland:20250524T143500
+LOCATION:Papanui Domain, 61 Sawyers Arms Rd, Northcote, Christchurch, 8052, NZL
+DESCRIPTION:Papanui Domain: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253529@hornbypanthers
+SUMMARY:B's - Greymouth Greyhounds RLC vs Hornby Panthers (RD 9)
+DTSTART;TZID=Pacific/Auckland:20250607T130000
+DTEND;TZID=Pacific/Auckland:20250607T143500
+LOCATION:7802, Coal Creek, Greymouth, West Coast
+DESCRIPTION:Wingham Park: Wingham Park
+END:VEVENT
+BEGIN:VEVENT
+UID:5253531@hornbypanthers
+SUMMARY:B's - Hornby Panthers vs Linwood Keas Rugby League (RD 10)
+DTSTART;TZID=Pacific/Auckland:20250614T130000
+DTEND;TZID=Pacific/Auckland:20250614T143500
+LOCATION:Leslie Park, Halswell Junction Rd, Islington, Christchurch, 8042, NZL
+DESCRIPTION:Leslie Park: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253535@hornbypanthers
+SUMMARY:B's - Papanui Tigers vs Hornby Panthers (RD 11)
+DTSTART;TZID=Pacific/Auckland:20250628T130000
+DTEND;TZID=Pacific/Auckland:20250628T143500
+LOCATION:Crosbie Park, Apsley Dr, Russley, Christchurch, 8042, NZL
+DESCRIPTION:Crosbie Park: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253536@hornbypanthers
+SUMMARY:B's - Hornby Panthers vs Halswell Hornets (RD 12)
+DTSTART;TZID=Pacific/Auckland:20250705T130000
+DTEND;TZID=Pacific/Auckland:20250705T143500
+LOCATION:Leslie Park, Halswell Junction Rd, Islington, Christchurch, 8042, NZL
+DESCRIPTION:Leslie Park: Field 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5253540@hornbypanthers
+SUMMARY:B's - Linwood Keas Rugby League vs Hornby Panthers (RD 13)
+DTSTART;TZID=Pacific/Auckland:20250712T130000
+DTEND;TZID=Pacific/Auckland:20250712T143500
+LOCATION:Linwood Park, Linwood Ave, Linwood, Christchurch, 8062, NZL
+DESCRIPTION:Linwood Park: Field 1
+END:VEVENT
+END:VCALENDAR
