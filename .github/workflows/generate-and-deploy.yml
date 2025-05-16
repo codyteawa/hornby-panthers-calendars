@@ -15,6 +15,12 @@ jobs:
         with:
           ref: master
 
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -30,14 +36,7 @@ jobs:
         run: node index.js
         continue-on-error: true
 
-      - name: Checkout gh-pages branch
-        if: ${{ success() }}
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: Copy and commit if calendar updated
+      - name: Commit and push if calendar updated
         if: ${{ success() }}
         run: |
           cp 2025_riccarton_c_game_calendar.ics gh-pages/2025_riccarton_c_game_calendar.ics

@@ -22,11 +22,12 @@ const __dirname = path.dirname(__filename);
 
 // Path to the existing .ics file (in repo root, one level up)
 const outputPath = path.resolve(__dirname, '../2025_riccarton_c_game_calendar.ics');
+const existingPath = path.resolve(__dirname, '../gh-pages/2025_riccarton_c_game_calendar.ics');
 
 // Check if file exists and is identical
 let existingContent = '';
-if (fs.existsSync(outputPath)) {
-  existingContent = fs.readFileSync(outputPath, 'utf-8');
+if (fs.existsSync(existingPath)) {
+  existingContent = fs.readFileSync(existingPath, 'utf-8');
 }
 
 if (existingContent === icsContent) {
@@ -35,5 +36,6 @@ if (existingContent === icsContent) {
 }
 
 // Write new file
+console.log(`Changes found: existingFileLen: ${existingContent.length}, newFileLen: ${icsContent.length}`);
 fs.writeFileSync(outputPath, icsContent, 'utf-8');
 process.exit(0); // Exit with success code, indicate "change occurred" allowing next steps to execute.
