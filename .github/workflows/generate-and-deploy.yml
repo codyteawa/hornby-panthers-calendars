@@ -27,19 +27,17 @@ jobs:
       - name: Run generate calendar script
         id: calendar_generator
         working-directory: ./src
-        run: |
-          node index.js
-          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        run: node index.js
         continue-on-error: true
 
       - name: Checkout gh-pages branch
+        if: ${{ success() }}
         uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
 
       - name: Copy and commit if calendar updated
-        if: steps.calendar_generator.outputs.exit_code == '10'
         run: |
           cp 2025_riccarton_c_game_calendar.ics gh-pages/2025_riccarton_c_game_calendar.ics
           cd gh-pages

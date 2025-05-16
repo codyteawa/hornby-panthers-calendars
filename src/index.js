@@ -31,9 +31,9 @@ if (fs.existsSync(outputPath)) {
 
 if (existingContent === icsContent) {
   console.log('No changes to calendar file. Exiting.');
-  process.exit(0); // success, but nothing to commit
+  process.exit(1); // Exit with non-zero code (failure), forcing end of workflow.
 }
 
 // Write new file
 fs.writeFileSync(outputPath, icsContent, 'utf-8');
-process.exit(10); // indicate "change occurred"
+process.exit(0); // Exit with success code, indicate "change occurred" allowing next steps to execute.
