@@ -38,6 +38,7 @@ jobs:
           path: gh-pages
 
       - name: Copy and commit if calendar updated
+        if: ${{ success() }}
         run: |
           cp 2025_riccarton_c_game_calendar.ics gh-pages/2025_riccarton_c_game_calendar.ics
           cd gh-pages
