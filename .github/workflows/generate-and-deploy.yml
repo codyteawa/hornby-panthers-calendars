@@ -37,7 +37,7 @@ jobs:
         continue-on-error: true
 
       - name: Commit and push if calendar updated
-        if: ${{ success() }}
+        if: steps.calendar_generator.outcome == 'success'
         run: |
           cp 2025_riccarton_c_game_calendar.ics gh-pages/2025_riccarton_c_game_calendar.ics
           cd gh-pages
