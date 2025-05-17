@@ -37,15 +37,17 @@ jobs:
         continue-on-error: true
 
       - name: Debug outcome
-        run: echo "calendar_generator.outcome=${{ steps.calendar_generator.outcome }}"
+        run: | 
+          echo "calendar_generator.outcome=${{ steps.calendar_generator.outcome }}"
+          echo "calendar_generator.outcome=${{ steps.calendar_generator.outcome == 'success' }}"
 
-      # - name: Commit and push if calendar updated
-      #   if: steps.calendar_generator.outcome == 'success'
-      #   run: |
-      #     cp 2025_riccarton_c_game_calendar.ics gh-pages/2025_riccarton_c_game_calendar.ics
-      #     cd gh-pages
-      #     git config user.name "github-actions[bot]"
-      #     git config user.email "github-actions[bot]@users.noreply.github.com"
-      #     git add 2025_riccarton_c_game_calendar.ics
-      #     git commit -m "Update calendar file"
-      #     git push origin gh-pages
+      - name: Commit and push if calendar updated
+        if: steps.calendar_generator.outcome == 'success'
+        run: |
+          cp 2025_riccarton_c_game_calendar.ics gh-pages/2025_riccarton_c_game_calendar.ics
+          cd gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add 2025_riccarton_c_game_calendar.ics
+          git commit -m "Update calendar file"
+          git push origin gh-pages
